@@ -360,5 +360,6 @@ use_neural_network("Good job.")
 ![](https://user-images.githubusercontent.com/31281151/43791805-7f362868-9a94-11e8-9f36-fd3f81219900.png)
 
 ## Informaion about other files 
-```training.1600000.processed.noemoticon.csv``` - Raw training data set
-```testdata.manual.2009.06.14.csv```            - Testing data set
+```training.1600000.processed.noemoticon.csv``` - Raw training data set.
+
+```testdata.manual.2009.06.14.csv```            - Testing data set.

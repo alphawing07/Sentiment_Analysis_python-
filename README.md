@@ -29,7 +29,7 @@ library requirements for the project are
   import tensorflow as tf
  ```
  ## Pipeline 
- ### 1.Preprocessing 
+ ### 1. Preprocessing 
  1. Run preprocess.py
     
     The above step will create a lexicon,shuffle the test data, covert testing and training data into desired format. The       training and test data files will be saved as 'train_set_shuffled.csv' and 'processed-test-set.csv'
@@ -279,7 +279,7 @@ def test_neural_network():
 
 test_neural_network()
 ```
-## 3.Testing on manual statements 
+## 3. Testing on manual statements 
 test.py is a script which uses the above network after training . All it does is take a string input, vectorize it according to our bag of words model, feed it through the neural network, and the output will either be [1,0] for positive sentiment or [0,1] for negative sentiment.
 ```python
 lemmatizer = WordNetLemmatizer()
@@ -363,3 +363,11 @@ use_neural_network("Good job.")
 ```training.1600000.processed.noemoticon.csv``` - Raw training data set.
 
 ```testdata.manual.2009.06.14.csv```            - Testing data set.
+
+## NOTE 
+training dataset size is big to be uploaded here , hence can be downloaded from 
+
+```http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip```
+
+mirror link -```https://docs.google.com/file/d/0B04GJPshIjmPRnZManQwWEdTZjg/edit```
+
